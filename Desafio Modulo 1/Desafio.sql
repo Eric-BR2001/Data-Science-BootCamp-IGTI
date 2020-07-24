@@ -37,7 +37,7 @@ Pergunta 12
 Considere o banco de dados do enunciado. 
 Crie uma consulta em SQL e responda: Quem é a pessoa que possui mais tempo de alocação no projeto 'Newbenefits'?
 */
-Select e.* FROm empregado e JOIN  trabalha_em t ON (e.ssn = t.essn)
+Select e.* FROM empregado e JOIN  trabalha_em t ON (e.ssn = t.essn)
 WHERE t.horas = (SELECT MAX(t.horas) FROM projeto p JOIN trabalha_em t ON (t.pno = p.pnumero)
 WHERE UPPER(TRIM(p.pjnome)) = UPPER(TRIM('Newbenefits')))
 /*
