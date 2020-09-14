@@ -1,0 +1,8 @@
+Gente o notebook do desafio está com problemas, precisa fazer as seguintes correções
+Cmd 23 Alterar para 
+#contando as classes
+dataset_desafio.groupBy("work_type").agg({'work_type': 'count'}).sort("count(work_type)",ascending=True).show()
+
+Ultimo comando Acrescentar no começo
+#define o validador do modelo de classificação
+from pyspark.ml.evaluation import MulticlassClassificationEvaluator
