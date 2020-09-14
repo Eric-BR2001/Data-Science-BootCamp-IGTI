@@ -1,0 +1,33 @@
+1. Baixar e Instalar VirtualBox
+Acessar o link: https://www.virtualbox.org/wiki/Downloads
+Clicar em  Windows hosts
+Clicar 2x em VirtualBox-XXXXXXXX-Win.exe
+Next, next, finish
+
+2. Baixar a imagem da máquina vitual
+Acessar o link: https://drive.google.com/drive/u/1/folders/17Kv5wwkpVnJ0MPNPYn7uEckWmp2cRE-Y
+Baixar o arquivo EcossistemaHadoop.ova (6.4 GB)
+Observação: caso não consiga baixar o arquivo, é possível baixar o restante dos arquivos e descompactar o arquivo EcossistemaHadoop.zip
+
+3. Importar a imagem da VM no VirtualBox
+Abrir o VirtualBox pelo Iniciar
+Acessar o menu File e escolher a opção Import Apliance
+Buscar o arquivo EcossistemaHadoop.ova no local onde o mesmo foi baixado
+
+4. Abrir a VM
+Clicar com o botão direito na máquina criada e escolher a opção Start > Normal Start
+A máquina irá carregar
+Na tela de login, entrar com os seguintes dados:
+- Login: igti
+- Password: igti
+
+5. Importar e Desenvolver os códigos em Java no Netbeans
+Para importar o código-fonte do projeto, seguir o seguinte tutorial: https://www.youtube.com/watch?v=GQt96ILITg0
+Para configurar os arquivos .java e compilá-los, seguir o seguinte tutorial: https://www.youtube.com/watch?v=kRRMHFPeMtI
+Renomear o projeto para IGTI, para manter o package nos arquivos .java.
+Para separar os projetos, criar as classes java com o mesmo nome das classes de map e reduce dentro do projeto, copiar o código-fonte para dentro e retirar a cláusula static.
+
+6. Executar e Configurar o Hadoop no Windows
+Acessar os seguintes links de tutorial:
+- https://www.youtube.com/watch?v=g7Qpnmi0Q-s
+- https://www.it-swarm.dev/pt/windows/executando-o-apache-hadoop-2.1.0-no-windows/1042351275/

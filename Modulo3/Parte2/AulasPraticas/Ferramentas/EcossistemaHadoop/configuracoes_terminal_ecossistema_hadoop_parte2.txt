@@ -1,0 +1,5 @@
+1. Manipular dados com o Sqoop
+Digitar os comandos que estão dentro de Sqoop/comandos_terminal_sqoop.sh
+
+2. Manipular dados com o Hive
+Digitar os comandos que estão dentro de Hive/comandos_terminal_hive.sh

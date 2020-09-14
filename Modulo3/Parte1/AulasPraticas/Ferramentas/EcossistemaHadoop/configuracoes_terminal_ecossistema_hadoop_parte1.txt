@@ -1,0 +1,11 @@
+1. Gerenciar o Hadoop via Terminal
+Acessar o terminal
+Digitar os comandos que estão dentro de comandos_terminal_hadoop.sh
+
+2. Gerenciar a Interface Gráfica do Hadoop
+Entrar no Navegador Mozilla Firefox
+Acessar a aplicação do HDFS: http://localhost:9870
+Acessar a aplicação das aplicações executadas no Hadoop: http://localhost:8088
+
+3. Manipular programa java e executar no Hadoop
+Digitar os comandos que estão dentro de comandos_terminal_job.sh
