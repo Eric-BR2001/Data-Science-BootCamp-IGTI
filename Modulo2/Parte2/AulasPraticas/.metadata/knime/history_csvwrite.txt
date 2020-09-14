@@ -1,0 +1,7 @@
+C:\Users\USUARIO\Downloads\IGTI\Bootcamp Online - Cientista de Dados\3_Modulo2_Coleta_e_Obtencao_de_Dados\Parte2\AulasPraticas\dados\IGTI_Scraped_categories.csv
+C:\Users\USUARIO\Downloads\IGTI\Bootcamp Online - Cientista de Dados\3_Modulo2_Coleta_e_Obtencao_de_Dados\Parte2\AulasPraticas\dados.csv
+C:\Users\USUARIO\Downloads\IGTI\Bootcamp Online - Cientista de Dados\3_Modulo2_Coleta_e_Obtencao_de_Dados\Parte2\AulasPraticas\dados\twitter_trends1.csv
+C:\Users\USUARIO\Downloads\IGTI\Bootcamp Online - Cientista de Dados\3_Modulo2_Coleta_e_Obtencao_de_Dados\Parte2\AulasPraticas.csv
+C:\Users\USUARIO\Downloads\IGTI\Bootcamp Online - Cientista de Dados\3_Modulo2_Coleta_e_Obtencao_de_Dados\Parte2\AulasPraticas\dados\twitter_trends2.csv
+C:\Users\USUARIO\Downloads\IGTI\Bootcamp Online - Cientista de Dados\3_Modulo2_Coleta_e_Obtencao_de_Dados\Parte2\AulasPraticas\dados\twitter_timeline1.csv
+C:\Users\USUARIO\Downloads\IGTI\Bootcamp Online - Cientista de Dados\3_Modulo2_Coleta_e_Obtencao_de_Dados\Parte2\AulasPraticas\dados\twitter_search_K.csv

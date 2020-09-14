@@ -1,0 +1,80 @@
+1. Instalar os pacotes necessários
+Acessar no cmd
+Ativar o ambiente dev através do seguinte comando: conda activate dev
+Executar os seguintes comandos:
+- conda install -c conda-forge uritools
+- conda install -c conda-forge scrapy
+
+2. Links interessantes
+Diferença entre web scraping e web crawling: http://prowebscraping.com/web-scraping-vs-web-crawling/
+Tutorial para utilição do scrapy via python: https://docs.scrapy.org/en/latest/intro/tutorial.html
+Tutorial do pacote Rpollution para utilização do scrapy via R: https://www.rpollution.com/blog/scraper-cetesb-v2/
+
+3. Acessar o scrapy shell e explorar o blog do IGTI
+Acessar o site: https://www.igti.com.br/blog/
+Acessar o cmd.
+Executar o seguite comando:
+- scrapy shell https://www.igti.com.br/blog/
+Exemplo da resposta principal:
+2020-08-02 19:05:40 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-08-02 19:05:40 [scrapy.core.engine] INFO: Spider opened
+2020-08-02 19:05:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.igti.com.br/blog/> (referer: None)
+2020-08-02 19:05:50 [asyncio] DEBUG: Using selector: SelectSelector
+[s] Available Scrapy objects:
+[s]   scrapy     scrapy module (contains scrapy.Request, scrapy.Selector, etc)
+[s]   crawler    <scrapy.crawler.Crawler object at 0x0000024116570C88>
+[s]   item       {}
+[s]   request    <GET https://www.igti.com.br/blog/>
+[s]   response   <200 https://www.igti.com.br/blog/>
+[s]   settings   <scrapy.settings.Settings object at 0x0000024116561F28>
+[s]   spider     <DefaultSpider 'default' at 0x24116a4f9b0>
+[s] Useful shortcuts:
+[s]   fetch(url[, redirect=True]) Fetch URL and update local objects (by default, redirects are followed)
+[s]   fetch(req)                  Fetch a scrapy.Request and update local objects
+[s]   shelp()           Shell help (print this help)
+[s]   view(response)    View response in a browser
+2020-08-02 19:05:50 [asyncio] DEBUG: Using selector: SelectSelector
+Executar os seguintes comandos de exemplo (comandos_scrapy.py):
+
+4. Habilitando o XPath
+Acessar o navegador Google Chrome.
+Acessar o link: https://chrome.google.com/webstore/detail/xpath-helper/hgimnogjllphhhkhlmebbmlgjoejdpjl/related?hl=en
+Clicar em Add to Chrome.
+Clicar em Adicionar Extensão.
+OBS: Caso esteja utilizando o Mozilla Firefox, procurar a extensão xPath Finder.
+Será apresentada a mensagem de que o XPath foi adicionado corretamente ao navegador.
+Para ativá-lo, apertar as teclas CTRL + SHIFT + X no site alvo.
+Serão apresentados os campos Query e Results.
+Pressionando a tecla SHIFT e passando mouse sobre as seções da página, é possível perceber que o os campos do XPath são preenchidos automaticamente.
+
+5. Executar um script do tipo scrapy
+Criar um aruivo de script em python
+Executar no cmd o seguinte comando:
+scrapy runspider nome_script.py
+
+6. Executar um script do tipo scrapy com escrita do resultado em arquivos JSON ou CSV
+Para JSON: scrapy runspider nome_script.py -t json -o caminho/.../nome_arquivo.json
+Para CSV: scrapy runspider nome_script.py -t csv -o caminho/.../nome_arquivo.csv
+
+7. Gerar um projeto completo do tipo scrapy
+Entrar no cmd
+Executar o seguinte comando: scrapy startproject nome_projeto
+Estrutura do projeto criado automaticamente
+- scrapy.cfg - arquivo de configurações com variáveis padrão
+- spiders/ - pasta na qual serão criados os scripts de scraping ou spiders
+- items.py - classes de itens a serem gravados no momento de scraping
+- middlewares.py - definição de processamento de resposta da requisição HTTP
+- pipelines.py - tratamentos e manipulação dos itens coletados pelos spiders
+- settings.py - configurações utilizadas pelos projeto como um todo
+
+8. Gerar um spider dentro do projeto gerado automaticamente
+Entrar no cmd
+Executar os seguintes comandos:
+- cd nome_projeto
+- scrapy genspider nome_spider url_alvo
+
+9. Executar o(s) script(s) do projeto gerado automaticamente
+Entrar no cmd
+Executar os seguintes comandos:
+- scrapy runspider nome_projeto\spiders\script_scraping.py
+- scrapy runspider nome_projeto\spiders\script_crawling.py

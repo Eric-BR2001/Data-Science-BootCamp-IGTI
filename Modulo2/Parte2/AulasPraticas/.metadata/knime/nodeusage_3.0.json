@@ -1,0 +1,223 @@
+
+{
+    "version": "4.2.0.v202007081304",
+    "created": "2020-08-01 20:57",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.mongodb.read.MongoDBReaderNodeFactory#MongoDB Reader",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 1054,
+                "nrcreated": 1,
+                "successor": "org.knime.json.node.totable.JSONToTableNodeFactory#JSON to Table"
+            },
+            {
+                "id": "org.knime.json.node.totable.JSONToTableNodeFactory#JSON to Table",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 365,
+                "nrcreated": 2,
+                "successor": "org.knime.dynamic.js.v30.DynamicJSNodeFactory#Pie/Donut Chart"
+            },
+            {
+                "id": "org.knime.dynamic.js.v30.DynamicJSNodeFactory#Pie/Donut Chart",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 90979,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.database.node.utility.tablecreator.DBTableCreateNodeFactory#DB Table Creator",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.tablecreator.TableCreator2NodeFactory#Table Creator",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 141,
+                "nrcreated": 4,
+                "successor": "ws.palladian.nodes.retrieval.HttpRetrieverNodeFactory2#HTTP Retriever"
+            },
+            {
+                "id": "org.knime.json.node.fromtable.TableToJsonNodeFactory#Table to JSON",
+                "nrexecs": 10,
+                "nrfails": 0,
+                "exectime": 162,
+                "nrcreated": 7,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
+            },
+            {
+                "id": "org.knime.mongodb.write.MongoDBWriterNodeFactory#MongoDB Writer",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 89,
+                "nrcreated": 2,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.csvreader.CSVReaderNodeFactory#CSV Reader",
+                "nrexecs": 1,
+                "nrfails": 1,
+                "exectime": 66,
+                "nrcreated": 1,
+                "successor": "org.knime.json.node.fromtable.TableToJsonNodeFactory#Table to JSON"
+            },
+            {
+                "id": "org.knime.mongodb.remove.MongoDBRemoveNodeFactory#MongoDB Remove",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.twitter.api.nodes.connector.TwitterAPIConnectorFactory#Twitter API Connector",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 9,
+                "nrcreated": 2,
+                "successor": "org.knime.twitter.api.nodes.timeline.TwitterTimelineFactory#Twitter Timeline"
+            },
+            {
+                "id": "org.knime.twitter.api.nodes.search.TwitterSearchFactory#Twitter Search",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 62194,
+                "nrcreated": 1,
+                "successor": "org.knime.json.node.fromtable.TableToJsonNodeFactory#Table to JSON"
+            },
+            {
+                "id": "org.knime.base.node.io.csvwriter.CSVWriterNodeFactory#CSV Writer",
+                "nrexecs": 6,
+                "nrfails": 0,
+                "exectime": 97,
+                "nrcreated": 4,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory#Constant Value Column",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 69,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.rowkey2.RowKeyNodeFactory2#RowID"
+            },
+            {
+                "id": "org.knime.base.node.preproc.rowkey2.RowKeyNodeFactory2#RowID",
+                "nrexecs": 6,
+                "nrfails": 0,
+                "exectime": 24,
+                "nrcreated": 2,
+                "successor": "org.knime.json.node.writer.JSONWriterNodeFactory#JSON Writer"
+            },
+            {
+                "id": "org.knime.json.node.writer.JSONWriterNodeFactory#JSON Writer",
+                "nrexecs": 9,
+                "nrfails": 0,
+                "exectime": 399,
+                "nrcreated": 4,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.twitter.api.nodes.timeline.TwitterTimelineFactory#Twitter Timeline",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 13966,
+                "nrcreated": 1,
+                "successor": "org.knime.json.node.fromtable.TableToJsonNodeFactory#Table to JSON"
+            },
+            {
+                "id": "com.mmiagency.knime.nodes.twitter.trends.TwitterTrendsNodeFactory#Twitter Trends",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 886,
+                "nrcreated": 1,
+                "successor": "org.knime.json.node.fromtable.TableToJsonNodeFactory#Table to JSON"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
+                "nrexecs": 11,
+                "nrfails": 0,
+                "exectime": 2,
+                "nrcreated": 4,
+                "successor": "org.knime.base.node.io.csvwriter.CSVWriterNodeFactory#CSV Writer"
+            },
+            {
+                "id": "org.knime.xml.node.xpath2.XPathNodeFactory#XPath",
+                "nrexecs": 14,
+                "nrfails": 0,
+                "exectime": 262,
+                "nrcreated": 5,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
+            },
+            {
+                "id": "com.mmiagency.knime.nodes.html.CleanHtmlRetrieverNodeFactory#Clean HTML Retriever",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "ws.palladian.nodes.retrieval.HttpRetrieverNodeFactory2#HTTP Retriever",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 10481,
+                "nrcreated": 2,
+                "successor": "ws.palladian.nodes.retrieval.parser.HtmlParserNodeFactory#HTML Parser"
+            },
+            {
+                "id": "ws.palladian.nodes.retrieval.parser.HtmlParserNodeFactory#HTML Parser",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 1046,
+                "nrcreated": 2,
+                "successor": "org.knime.xml.node.xpath2.XPathNodeFactory#XPath"
+            },
+            {
+                "id": "ws.palladian.nodes.preprocessing.scraping.htmltotext.HtmlNodeToTextNodeFactory#HTML Node to Text",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 33,
+                "nrcreated": 3,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 4,
+                "nrcreated": 1,
+                "successor": "org.knime.xml.node.xpath2.XPathNodeFactory#XPath"
+            },
+            {
+                "id": "org.knime.ext.jfc.node.piechart.JfcPieChartNodeFactory#Pie Chart (JFreeChart)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 388,
+                "nrcreated": 1,
+                "successor": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        }
+    },
+    "uptime": 6083474,
+    "workflowsOpened": 10,
+    "remoteWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "launches": 10,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 2347095,
+    "crashes": 0,
+    "properlyShutDown": true
+}

@@ -1,0 +1,12 @@
+1. Baixar e Instalar o MongoDB
+URL: https://www.mongodb.com/try/download/community?tck=docs_server
+Version: 4.4
+Platform: Windows
+Package: msi
+Clicar em Download
+
+2. Após a instalação, entrar no terminal e digitar os seguintes comandos:
+cd C:\Program Files\MongoDB\Server\4.4\bin
+mongo
+
+3. Dentro do ambiente do mongo, digitar os comandos (um por um) no arquivo comandos.mongodb

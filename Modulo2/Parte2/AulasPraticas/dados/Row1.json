@@ -1,0 +1,265 @@
+[ {
+  "Location" : "Brazil",
+  "Name" : "Ederson",
+  "Query" : "Ederson",
+  "URL" : "http://twitter.com/search?q=Ederson",
+  "key" : "0"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Mirassol",
+  "Query" : "Mirassol",
+  "URL" : "http://twitter.com/search?q=Mirassol",
+  "key" : "1"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Hyoran",
+  "Query" : "Hyoran",
+  "URL" : "http://twitter.com/search?q=Hyoran",
+  "key" : "2"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Saravia",
+  "Query" : "Saravia",
+  "URL" : "http://twitter.com/search?q=Saravia",
+  "key" : "3"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Nathan",
+  "Query" : "Nathan",
+  "URL" : "http://twitter.com/search?q=Nathan",
+  "key" : "4"
+}, {
+  "Location" : "Brazil",
+  "Name" : "#ButecoBohemiaSunset",
+  "Query" : "%23ButecoBohemiaSunset",
+  "URL" : "http://twitter.com/search?q=%23ButecoBohemiaSunset",
+  "key" : "5"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Cássio",
+  "Query" : "C%C3%A1ssio",
+  "URL" : "http://twitter.com/search?q=C%C3%A1ssio",
+  "key" : "6"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Gusttavo Lima",
+  "Query" : "%22Gusttavo+Lima%22",
+  "URL" : "http://twitter.com/search?q=%22Gusttavo+Lima%22",
+  "key" : "7"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Galhardo",
+  "Query" : "Galhardo",
+  "URL" : "http://twitter.com/search?q=Galhardo",
+  "key" : "8"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Ramiro",
+  "Query" : "Ramiro",
+  "URL" : "http://twitter.com/search?q=Ramiro",
+  "key" : "9"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Arana",
+  "Query" : "Arana",
+  "URL" : "http://twitter.com/search?q=Arana",
+  "key" : "10"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Boschilia",
+  "Query" : "Boschilia",
+  "URL" : "http://twitter.com/search?q=Boschilia",
+  "key" : "11"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Carlos Eduardo",
+  "Query" : "%22Carlos+Eduardo%22",
+  "URL" : "http://twitter.com/search?q=%22Carlos+Eduardo%22",
+  "key" : "12"
+}, {
+  "Location" : "Brazil",
+  "Name" : "#CORxMIR",
+  "Query" : "%23CORxMIR",
+  "URL" : "http://twitter.com/search?q=%23CORxMIR",
+  "key" : "13"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Paulinho",
+  "Query" : "Paulinho",
+  "URL" : "http://twitter.com/search?q=Paulinho",
+  "key" : "14"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Sampaoli",
+  "Query" : "Sampaoli",
+  "URL" : "http://twitter.com/search?q=Sampaoli",
+  "key" : "15"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Coudet",
+  "Query" : "Coudet",
+  "URL" : "http://twitter.com/search?q=Coudet",
+  "key" : "16"
+}, {
+  "Location" : "Brazil",
+  "Name" : "#BTS_Dynamite",
+  "Query" : "%23BTS_Dynamite",
+  "URL" : "http://twitter.com/search?q=%23BTS_Dynamite",
+  "key" : "17"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Itaquera",
+  "Query" : "Itaquera",
+  "URL" : "http://twitter.com/search?q=Itaquera",
+  "key" : "18"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Otero",
+  "Query" : "Otero",
+  "URL" : "http://twitter.com/search?q=Otero",
+  "key" : "19"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Pottker",
+  "Query" : "Pottker",
+  "URL" : "http://twitter.com/search?q=Pottker",
+  "key" : "20"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Esportivo",
+  "Query" : "Esportivo",
+  "URL" : "http://twitter.com/search?q=Esportivo",
+  "key" : "21"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Dorival",
+  "Query" : "Dorival",
+  "URL" : "http://twitter.com/search?q=Dorival",
+  "key" : "22"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Guga",
+  "Query" : "Guga",
+  "URL" : "http://twitter.com/search?q=Guga",
+  "key" : "23"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Keno",
+  "Query" : "Keno",
+  "URL" : "http://twitter.com/search?q=Keno",
+  "key" : "24"
+}, {
+  "Location" : "Brazil",
+  "Name" : "#GOpaiN",
+  "Query" : "%23GOpaiN",
+  "URL" : "http://twitter.com/search?q=%23GOpaiN",
+  "key" : "25"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Araos",
+  "Query" : "Araos",
+  "URL" : "http://twitter.com/search?q=Araos",
+  "key" : "26"
+}, {
+  "Location" : "Brazil",
+  "Name" : "#nascarfoxsports",
+  "Query" : "%23nascarfoxsports",
+  "URL" : "http://twitter.com/search?q=%23nascarfoxsports",
+  "key" : "27"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Renan",
+  "Query" : "Renan",
+  "URL" : "http://twitter.com/search?q=Renan",
+  "key" : "28"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Lisca",
+  "Query" : "Lisca",
+  "URL" : "http://twitter.com/search?q=Lisca",
+  "key" : "29"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Athletico",
+  "Query" : "Athletico",
+  "URL" : "http://twitter.com/search?q=Athletico",
+  "key" : "30"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Thiago Lopes",
+  "Query" : "%22Thiago+Lopes%22",
+  "URL" : "http://twitter.com/search?q=%22Thiago+Lopes%22",
+  "key" : "31"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Tiago Nunes",
+  "Query" : "%22Tiago+Nunes%22",
+  "URL" : "http://twitter.com/search?q=%22Tiago+Nunes%22",
+  "key" : "32"
+}, {
+  "Location" : "Brazil",
+  "Name" : "O VAR",
+  "Query" : "%22O+VAR%22",
+  "URL" : "http://twitter.com/search?q=%22O+VAR%22",
+  "key" : "33"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Fabiano",
+  "Query" : "Fabiano",
+  "URL" : "http://twitter.com/search?q=Fabiano",
+  "key" : "34"
+}, {
+  "Location" : "Brazil",
+  "Name" : "marcos guilherme",
+  "Query" : "%22marcos+guilherme%22",
+  "URL" : "http://twitter.com/search?q=%22marcos+guilherme%22",
+  "key" : "35"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Remo",
+  "Query" : "Remo",
+  "URL" : "http://twitter.com/search?q=Remo",
+  "key" : "36"
+}, {
+  "Location" : "Brazil",
+  "Name" : "Praxedes",
+  "Query" : "Praxedes",
+  "URL" : "http://twitter.com/search?q=Praxedes",
+  "key" : "37"
+}, {
+  "Location" : "Brazil",
+  "Name" : "#BTSNOCEARA",
+  "Query" : "%23BTSNOCEARA",
+  "URL" : "http://twitter.com/search?q=%23BTSNOCEARA",
+  "key" : "38"
+}, {
+  "Location" : "Brazil",
+  "Name" : "#DerreteMaia",
+  "Query" : "%23DerreteMaia",
+  "URL" : "http://twitter.com/search?q=%23DerreteMaia",
+  "key" : "39"
+}, {
+  "Location" : "Brazil",
+  "Name" : "#smilesundays",
+  "Query" : "%23smilesundays",
+  "URL" : "http://twitter.com/search?q=%23smilesundays",
+  "key" : "40"
+}, {
+  "Location" : "Brazil",
+  "Name" : "#GoFLA",
+  "Query" : "%23GoFLA",
+  "URL" : "http://twitter.com/search?q=%23GoFLA",
+  "key" : "41"
+}, {
+  "Location" : "Brazil",
+  "Name" : "#SkolNoLsConvida",
+  "Query" : "%23SkolNoLsConvida",
+  "URL" : "http://twitter.com/search?q=%23SkolNoLsConvida",
+  "key" : "42"
+}, {
+  "Location" : "Brazil",
+  "Name" : "#paulistanosportv",
+  "Query" : "%23paulistanosportv",
+  "URL" : "http://twitter.com/search?q=%23paulistanosportv",
+  "key" : "43"
+} ]

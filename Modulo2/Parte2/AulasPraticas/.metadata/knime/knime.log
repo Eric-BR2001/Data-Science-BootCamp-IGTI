@@ -1,0 +1,589 @@
+2020-08-01 20:56:39,508 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMServiceEnabled did not terminate successfully.
+2020-08-01 20:56:39,510 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2020-08-01 20:56:39,511 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : A general error occurred that is not covered by a more specific error code.
+2020-08-01 20:56:39,511 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2020-08-01 20:56:39,511 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMSer ...
+2020-08-01 20:56:39,512 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-08-01 20:56:39,512 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2020-08-01 20:56:39,513 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2020-08-01 20:56:39,513 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2020-08-01 20:56:39,513 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2020-08-01 21:00:58,265 : WARN  : main :  : LongStartupHandler :  :  : Startup took 93667 seconds.
+2020-08-01 22:02:33,985 : ERROR : Clear OSGi configuration :  : InvokeInstallSiteAction :  :  : Could not clean OSGi configuration area: C:\Program Files\KNIME\configuration\org.eclipse.osgi\283\0\.cp\os\win32\x86_64\localfile_1_0_0.dll
+2020-08-01 22:11:24,395 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMServiceEnabled did not terminate successfully.
+2020-08-01 22:11:24,397 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2020-08-01 22:11:24,397 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : A general error occurred that is not covered by a more specific error code.
+2020-08-01 22:11:24,397 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2020-08-01 22:11:24,398 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMSer ...
+2020-08-01 22:11:24,398 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-08-01 22:11:24,398 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2020-08-01 22:11:24,398 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2020-08-01 22:11:24,398 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2020-08-01 22:11:24,399 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2020-08-01 22:13:28,852 : WARN  : main :  : Node : MongoDB Reader : 0:1 : No collection given
+2020-08-01 22:17:07,206 : WARN  : main :  : Node : MongoDB Writer : 0:6 : No collection given
+2020-08-01 22:17:21,659 : WARN  : main :  : Node : CSV Reader : 0:7 : No settings available
+2020-08-01 22:18:58,575 : WARN  : main :  : Node : MongoDB Remove : 0:12 : No collection given
+2020-08-02 00:09:53,888 : ERROR : KNIME-Worker-17-Pie/Donut Chart 0:3 :  : AbstractImageWizardNodeModel : Pie/Donut Chart : 0:3 : Initializing view failed: timeout: Timed out receiving message from renderer: 60.000
+  (Session info: headless chrome=83.0.4103.116)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NELSON-PC', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\USUARIO\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss, webauthn:virtualAuthenticators: true}
+Session ID: d36900862f2f707a55d8e63e1d4d830b
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 60.000
+  (Session info: headless chrome=83.0.4103.116)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NELSON-PC', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\USUARIO\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss, webauthn:virtualAuthenticators: true}
+Session ID: d36900862f2f707a55d8e63e1d4d830b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:883)
+	at org.knime.ext.seleniumdrivers.multios.ChromeImageGenerator.generateView(ChromeImageGenerator.java:244)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.renderViewAndCreateImage(AbstractImageWizardNodeModel.java:148)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.performExecute(AbstractImageWizardNodeModel.java:106)
+	at org.knime.js.core.node.AbstractWizardNodeModel.execute(AbstractWizardNodeModel.java:136)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:576)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:558)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-08-02 00:09:53,891 : ERROR : KNIME-Worker-17-Pie/Donut Chart 0:3 :  : AbstractImageWizardNodeModel : Pie/Donut Chart : 0:3 : Retrieving image from view failed: Error retrieving image: Chrome driver was not initialized. Could not retrieve image.
+java.io.IOException: Error retrieving image: Chrome driver was not initialized. Could not retrieve image.
+	at org.knime.ext.seleniumdrivers.multios.ChromeImageGenerator.retrieveImage(ChromeImageGenerator.java:313)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.renderViewAndCreateImage(AbstractImageWizardNodeModel.java:174)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.performExecute(AbstractImageWizardNodeModel.java:106)
+	at org.knime.js.core.node.AbstractWizardNodeModel.execute(AbstractWizardNodeModel.java:136)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:576)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:558)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.ext.seleniumdrivers.multios.SeleniumViewException: Chrome driver was not initialized. Could not retrieve image.
+	at org.knime.ext.seleniumdrivers.multios.ChromeImageGenerator.retrieveImage(ChromeImageGenerator.java:293)
+	... 16 more
+2020-08-02 00:18:26,516 : ERROR : KNIME-Worker-22-CSV Reader 0:7 :  : Node : CSV Reader : 0:7 : Execute failed: Encountered duplicate row ID "prod_3"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "prod_3"
+	at org.knime.core.data.container.BufferedRowContainer.checkAsyncWriteThrowable(BufferedRowContainer.java:378)
+	at org.knime.core.data.container.BufferedRowContainer.close(BufferedRowContainer.java:445)
+	at org.knime.core.data.container.DataContainer.close(DataContainer.java:364)
+	at org.knime.core.node.ExecutionContext.createBufferedDataTable(ExecutionContext.java:272)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:130)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:747)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:576)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1236)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:558)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "prod_3"
+	at org.knime.core.data.container.BufferedRowContainer.addRowKeyForDuplicateCheck(BufferedRowContainer.java:702)
+	at org.knime.core.data.container.BufferedRowContainer.access$4(BufferedRowContainer.java:695)
+	at org.knime.core.data.container.BufferedRowContainer$ContainerRunnable.run(BufferedRowContainer.java:765)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-08-02 00:18:56,590 : WARN  : KNIME-Worker-23-CSV Reader 0:7 :  : Node : MongoDB Writer : 0:9 : No collection given
+2020-08-02 00:19:23,790 : WARN  : KNIME-Worker-24-Table to JSON 0:8 :  : Node : MongoDB Writer : 0:9 : No collection given
+2020-08-02 00:23:12,999 : WARN  : main :  : Node : MongoDB Remove : 0:12 : No collection given
+2020-08-02 15:14:57,496 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMServiceEnabled did not terminate successfully.
+2020-08-02 15:14:57,497 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2020-08-02 15:14:57,497 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : A general error occurred that is not covered by a more specific error code.
+2020-08-02 15:14:57,497 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2020-08-02 15:14:57,497 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMSer ...
+2020-08-02 15:14:57,497 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-08-02 15:14:57,497 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2020-08-02 15:14:57,497 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2020-08-02 15:14:57,497 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2020-08-02 15:14:57,498 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2020-08-02 15:46:14,690 : WARN  : main :  : Node : Twitter API Connector : 3:1 : Consumer key is missing
+2020-08-02 15:56:13,781 : WARN  : main :  : Node : Twitter Search : 3:2 : Setting a query is mandatory.
+2020-08-02 15:56:21,029 : WARN  : main :  : Node : Twitter Search : 3:2 : Setting a query is mandatory.
+2020-08-02 15:56:27,736 : WARN  : KNIME-Worker-3-Twitter API Connector 3:1 :  : Node : Twitter Search : 3:2 : Setting a query is mandatory.
+2020-08-02 15:59:54,202 : WARN  : main :  : Node : CSV Writer : 3:4 : No destination location provided! Please enter a valid location.
+2020-08-02 15:59:54,203 : WARN  : main :  : Node : Constant Value Column : 3:5 : Configuration missing.
+2020-08-02 15:59:56,504 : WARN  : main :  : Node : CSV Writer : 3:4 : No destination location provided! Please enter a valid location.
+2020-08-02 15:59:56,504 : WARN  : main :  : Node : Constant Value Column : 3:5 : Configuration missing.
+2020-08-02 16:01:52,639 : WARN  : main :  : Node : CSV Writer : 3:4 : No destination location provided! Please enter a valid location.
+2020-08-02 16:01:52,640 : WARN  : main :  : Node : Constant Value Column : 3:5 : Configuration missing.
+2020-08-02 16:01:54,810 : WARN  : KNIME-Worker-5-Table to JSON 3:3 :  : Node : CSV Writer : 3:4 : No destination location provided! Please enter a valid location.
+2020-08-02 16:01:54,811 : WARN  : KNIME-Worker-5-Table to JSON 3:3 :  : Node : Constant Value Column : 3:5 : Configuration missing.
+2020-08-02 16:10:50,060 : WARN  : main :  : Node : RowID : 3:6 : No row key column selected generate a new one
+2020-08-02 16:10:50,060 : WARN  : main :  : Node : JSON Writer : 3:7 : No JSON columns! Use for example the "String to JSON" node to create one.
+2020-08-02 16:10:52,710 : WARN  : KNIME-Worker-7-Constant Value Column 3:5 :  : Node : RowID : 3:6 : No row key column selected generate a new one
+2020-08-02 16:10:52,711 : WARN  : KNIME-Worker-7-Constant Value Column 3:5 :  : Node : JSON Writer : 3:7 : No JSON columns! Use for example the "String to JSON" node to create one.
+2020-08-02 16:11:32,982 : WARN  : main :  : Node : RowID : 3:6 : No row key column selected generate a new one
+2020-08-02 16:11:32,983 : WARN  : main :  : Node : JSON Writer : 3:7 : No JSON columns! Use for example the "String to JSON" node to create one.
+2020-08-02 16:11:35,406 : WARN  : KNIME-Worker-8-RowID 3:6 :  : Node : JSON Writer : 3:7 : No JSON columns! Use for example the "String to JSON" node to create one.
+2020-08-02 16:15:04,377 : WARN  : ModalContext :  : Node : MySQL Connector : 0:1 : DB Connection no longer available. Go to advanced settings to enable connection restoration.
+2020-08-02 16:21:02,211 : WARN  : main :  : Node : RowID : 3:6 : No row key column selected generate a new one
+2020-08-02 16:21:02,212 : WARN  : main :  : Node : JSON Writer : 3:7 : No destination location provided! Please enter a valid location.
+2020-08-02 16:21:03,335 : WARN  : main :  : Node : RowID : 3:6 : No row key column selected generate a new one
+2020-08-02 16:21:03,336 : WARN  : main :  : Node : JSON Writer : 3:7 : No destination location provided! Please enter a valid location.
+2020-08-02 16:21:10,818 : WARN  : KNIME-Worker-12-Constant Value Column 3:5 :  : Node : RowID : 3:6 : No row key column selected generate a new one
+2020-08-02 16:21:10,819 : WARN  : KNIME-Worker-12-Constant Value Column 3:5 :  : Node : JSON Writer : 3:7 : No destination location provided! Please enter a valid location.
+2020-08-02 16:25:10,211 : WARN  : main :  : Node : JSON Writer : 3:7 : No destination location provided! Please enter a valid location.
+2020-08-02 16:25:14,620 : WARN  : main :  : Node : JSON Writer : 3:7 : No destination location provided! Please enter a valid location.
+2020-08-02 16:25:17,955 : WARN  : KNIME-Worker-13-RowID 3:6 :  : Node : JSON Writer : 3:7 : No destination location provided! Please enter a valid location.
+2020-08-02 17:07:41,086 : WARN  : main :  : Node : Twitter API Connector : 4:1 : Consumer key is missing
+2020-08-02 17:09:09,827 : WARN  : main :  : Node : Twitter Timeline : 4:2 : Setting a user is mandatory
+2020-08-02 17:09:10,416 : WARN  : main :  : Node : Twitter Timeline : 4:2 : Setting a user is mandatory
+2020-08-02 17:11:35,900 : WARN  : main :  : Node : CSV Writer : 4:4 : No destination location provided! Please enter a valid location.
+2020-08-02 17:19:44,571 : WARN  : main :  : Node : Constant Value Column : 4:5 : Configuration missing.
+2020-08-02 17:21:13,871 : WARN  : main :  : Node : RowID : 0:6 : Selected column: 'tweets' not found in input table.
+2020-08-02 17:21:14,837 : WARN  : main :  : Node : RowID : 0:6 : Selected column: 'tweets' not found in input table.
+2020-08-02 17:28:47,049 : WARN  : main :  : Node : RowID : 0:6 : No row key column selected generate a new one
+2020-08-02 17:28:47,645 : WARN  : main :  : Node : RowID : 0:6 : No row key column selected generate a new one
+2020-08-02 17:28:58,399 : WARN  : KNIME-Worker-25-Constant Value Column 0:5 :  : Node : RowID : 0:6 : No row key column selected generate a new one
+2020-08-02 17:33:26,196 : WARN  : main :  : Node : RowID : 4:6 : No row key column selected generate a new one
+2020-08-02 17:34:09,421 : WARN  : main :  : Node : JSON Writer : 4:7 : No destination location provided! Please enter a valid location.
+2020-08-02 17:42:08,044 : ERROR : Clear OSGi configuration :  : InvokeInstallSiteAction :  :  : Could not clean OSGi configuration area: C:\Program Files\KNIME\configuration\org.eclipse.osgi\284\0\.cp\os\win32\x86_64\localfile_1_0_0.dll
+2020-08-02 17:43:18,892 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMServiceEnabled did not terminate successfully.
+2020-08-02 17:43:18,893 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2020-08-02 17:43:18,893 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : A general error occurred that is not covered by a more specific error code.
+2020-08-02 17:43:18,893 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2020-08-02 17:43:18,893 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMSer ...
+2020-08-02 17:43:18,893 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-08-02 17:43:18,894 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2020-08-02 17:43:18,894 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2020-08-02 17:43:18,894 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2020-08-02 17:43:18,894 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2020-08-02 17:50:22,834 : WARN  : main :  : Node : JSON Writer : 0:11 : No JSON columns! Use for example the "String to JSON" node to create one.
+2020-08-02 17:51:19,334 : WARN  : main :  : Node : JSON Writer : 0:11 : No destination location provided! Please enter a valid location.
+2020-08-02 17:51:25,963 : WARN  : main :  : Node : CSV Writer : 0:12 : No destination location provided! Please enter a valid location.
+2020-08-02 17:53:06,193 : WARN  : main :  : Node : JSON Writer : 0:15 : No destination location provided! Please enter a valid location.
+2020-08-02 17:53:08,537 : WARN  : main :  : Node : CSV Writer : 0:16 : No destination location provided! Please enter a valid location.
+2020-08-02 17:53:44,888 : WARN  : ModalContext :  : Node : JSON Writer : 0:11 : No destination location provided! Please enter a valid location.
+2020-08-02 17:53:44,891 : WARN  : ModalContext :  : Node : CSV Writer : 0:12 : No destination location provided! Please enter a valid location.
+2020-08-02 17:53:44,894 : WARN  : ModalContext :  : Node : JSON Writer : 0:15 : No destination location provided! Please enter a valid location.
+2020-08-02 17:53:44,895 : WARN  : ModalContext :  : Node : CSV Writer : 0:16 : No destination location provided! Please enter a valid location.
+2020-08-02 18:01:46,397 : WARN  : main :  : Node : CSV Writer : 0:16 : No destination location provided! Please enter a valid location.
+2020-08-02 18:01:58,507 : WARN  : main :  : Node : CSV Writer : 0:16 : No destination location provided! Please enter a valid location.
+2020-08-02 18:02:19,046 : WARN  : main :  : Node : CSV Writer : 0:16 : No destination location provided! Please enter a valid location.
+2020-08-02 18:02:20,125 : WARN  : main :  : Node : CSV Writer : 0:16 : No destination location provided! Please enter a valid location.
+2020-08-02 18:03:13,809 : WARN  : KNIME-Worker-15-Column Filter 0:14 :  : Node : CSV Writer : 0:16 : No destination location provided! Please enter a valid location.
+2020-08-02 18:06:28,861 : WARN  : main :  : Node : CSV Writer : 0:16 : No destination location provided! Please enter a valid location.
+2020-08-02 18:06:29,685 : WARN  : main :  : Node : CSV Writer : 0:16 : No destination location provided! Please enter a valid location.
+2020-08-02 18:08:14,821 : WARN  : main :  : Node : CSV Writer : 0:16 : No destination location provided! Please enter a valid location.
+2020-08-02 18:08:15,294 : WARN  : main :  : Node : CSV Writer : 0:16 : No destination location provided! Please enter a valid location.
+2020-08-02 18:09:12,623 : WARN  : KNIME-Worker-21-Column Filter 0:14 :  : Node : CSV Writer : 0:16 : No destination location provided! Please enter a valid location.
+2020-08-02 18:11:16,448 : WARN  : KNIME-Worker-23-Table to JSON 0:10 :  : Node : JSON Writer : 0:11 : No destination location provided! Please enter a valid location.
+2020-08-02 18:11:16,449 : WARN  : KNIME-Worker-23-Table to JSON 0:10 :  : Node : CSV Writer : 0:12 : No destination location provided! Please enter a valid location.
+2020-08-02 18:11:31,267 : WARN  : main :  : Node : JSON Writer : 0:11 : No destination location provided! Please enter a valid location.
+2020-08-02 18:11:31,267 : WARN  : main :  : Node : CSV Writer : 0:12 : No destination location provided! Please enter a valid location.
+2020-08-02 18:11:39,054 : WARN  : main :  : Node : JSON Writer : 0:11 : No destination location provided! Please enter a valid location.
+2020-08-02 18:11:39,054 : WARN  : main :  : Node : CSV Writer : 0:12 : No destination location provided! Please enter a valid location.
+2020-08-02 18:11:39,422 : WARN  : main :  : Node : JSON Writer : 0:11 : No destination location provided! Please enter a valid location.
+2020-08-02 18:11:39,423 : WARN  : main :  : Node : CSV Writer : 0:12 : No destination location provided! Please enter a valid location.
+2020-08-02 18:11:41,556 : WARN  : KNIME-Worker-24-Table to JSON 0:10 :  : Node : JSON Writer : 0:11 : No destination location provided! Please enter a valid location.
+2020-08-02 18:11:41,557 : WARN  : KNIME-Worker-24-Table to JSON 0:10 :  : Node : CSV Writer : 0:12 : No destination location provided! Please enter a valid location.
+2020-08-03 18:52:01,867 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMServiceEnabled did not terminate successfully.
+2020-08-03 18:52:01,868 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2020-08-03 18:52:01,868 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : A general error occurred that is not covered by a more specific error code.
+2020-08-03 18:52:01,868 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2020-08-03 18:52:01,868 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMSer ...
+2020-08-03 18:52:01,868 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-08-03 18:52:01,869 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2020-08-03 18:52:01,869 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2020-08-03 18:52:01,869 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2020-08-03 18:52:01,869 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2020-08-03 23:36:03,450 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMServiceEnabled did not terminate successfully.
+2020-08-03 23:36:03,451 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2020-08-03 23:36:03,451 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : A general error occurred that is not covered by a more specific error code.
+2020-08-03 23:36:03,451 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2020-08-03 23:36:03,451 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMSer ...
+2020-08-03 23:36:03,452 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-08-03 23:36:03,452 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2020-08-03 23:36:03,452 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2020-08-03 23:36:03,452 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2020-08-03 23:36:03,453 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2020-08-03 23:41:23,024 : ERROR : Clear OSGi configuration :  : InvokeInstallSiteAction :  :  : Could not clean OSGi configuration area: C:\Program Files\KNIME\configuration\org.eclipse.osgi\286\0\.cp\os\win32\x86_64\localfile_1_0_0.dll
+2020-08-03 23:41:43,448 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMServiceEnabled did not terminate successfully.
+2020-08-03 23:41:43,449 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2020-08-03 23:41:43,449 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : A general error occurred that is not covered by a more specific error code.
+2020-08-03 23:41:43,449 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2020-08-03 23:41:43,449 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMSer ...
+2020-08-03 23:41:43,450 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-08-03 23:41:43,450 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2020-08-03 23:41:43,450 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2020-08-03 23:41:43,450 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2020-08-03 23:41:43,450 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2020-08-03 23:53:52,266 : ERROR : Clear OSGi configuration :  : InvokeInstallSiteAction :  :  : Could not clean OSGi configuration area: C:\Program Files\KNIME\configuration\org.eclipse.osgi\288\0\.cp\os\win32\x86_64\localfile_1_0_0.dll
+2020-08-03 23:55:11,350 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMServiceEnabled did not terminate successfully.
+2020-08-03 23:55:11,351 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2020-08-03 23:55:11,351 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : A general error occurred that is not covered by a more specific error code.
+2020-08-03 23:55:11,351 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2020-08-03 23:55:11,352 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMSer ...
+2020-08-03 23:55:11,352 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-08-03 23:55:11,352 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2020-08-03 23:55:11,353 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2020-08-03 23:55:11,353 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2020-08-03 23:55:11,353 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2020-08-04 00:33:11,263 : WARN  : main :  : Node : HTTP Retriever : 0:2 : No suitable column for org.knime.core.data.StringValue found
+2020-08-04 00:34:41,835 : WARN  : main :  : Node : HTTP Retriever : 0:2 : Guessing input column: url
+2020-08-04 00:36:48,451 : WARN  : main :  : Node : HTML Parser : 0:3 : Guessing input column: Result
+2020-08-04 00:36:59,783 : WARN  : main :  : Node : HTML Node to Text : 0:6 : Guessing input column: Document
+2020-08-04 00:43:27,901 : ERROR : main :  : XPathNodeDialog : XPath : 0:4 : Error loading model settings
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at org.knime.core.data.container.BlobSupportDataRow.getCell(BlobSupportDataRow.java:144)
+	at org.knime.xml.node.xpath2.XPathNodeDialog.updateText(XPathNodeDialog.java:1053)
+	at org.knime.xml.node.xpath2.XPathNodeDialog.loadSettingsFrom(XPathNodeDialog.java:1039)
+	at org.knime.core.node.DataAwareNodeDialogPane.callDerivedLoadSettingsFrom(DataAwareNodeDialogPane.java:79)
+	at org.knime.core.node.NodeDialogPane$3.run(NodeDialogPane.java:466)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2020-08-04 00:46:49,594 : ERROR : main :  : Node : XPath : 0:4 : Configure failed (IllegalArgumentException): There are empty namespace prefixes. Please provide a prefix for every namespace.
+java.lang.IllegalArgumentException: There are empty namespace prefixes. Please provide a prefix for every namespace.
+	at org.knime.xml.node.xpath2.ui.XPathNamespaceContext.<init>(XPathNamespaceContext.java:73)
+	at org.knime.xml.node.xpath2.XPathNodeSettings.initXPathExpression(XPathNodeSettings.java:438)
+	at org.knime.xml.node.xpath2.CellFactories.XPathCollectionCellFactory.<init>(XPathCollectionCellFactory.java:139)
+	at org.knime.xml.node.xpath2.CellFactories.XPathCollectionCellFactory.create(XPathCollectionCellFactory.java:129)
+	at org.knime.xml.node.xpath2.XPathNodeModel.createColumnRearranger(XPathNodeModel.java:500)
+	at org.knime.xml.node.xpath2.XPathNodeModel.createKnownOutSpec(XPathNodeModel.java:528)
+	at org.knime.xml.node.xpath2.XPathNodeModel.createFinalOutSpec(XPathNodeModel.java:553)
+	at org.knime.xml.node.xpath2.XPathNodeModel.configure(XPathNodeModel.java:179)
+	at org.knime.core.node.NodeModel.configure(NodeModel.java:1116)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1065)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1909)
+	at org.knime.core.node.Node.configure(Node.java:1845)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:529)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:304)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:189)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6215)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6374)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndSuccessors(WorkflowManager.java:6317)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:1944)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1081)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:263)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:638)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.access$6(WrappedNodeDialog.java:598)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$6.widgetSelected(WrappedNodeDialog.java:504)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:196)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:925)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:129)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4561)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:158)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+2020-08-04 00:46:50,496 : ERROR : main :  : Node : XPath : 0:4 : Configure failed (IllegalArgumentException): There are empty namespace prefixes. Please provide a prefix for every namespace.
+java.lang.IllegalArgumentException: There are empty namespace prefixes. Please provide a prefix for every namespace.
+	at org.knime.xml.node.xpath2.ui.XPathNamespaceContext.<init>(XPathNamespaceContext.java:73)
+	at org.knime.xml.node.xpath2.XPathNodeSettings.initXPathExpression(XPathNodeSettings.java:438)
+	at org.knime.xml.node.xpath2.CellFactories.XPathCollectionCellFactory.<init>(XPathCollectionCellFactory.java:139)
+	at org.knime.xml.node.xpath2.CellFactories.XPathCollectionCellFactory.create(XPathCollectionCellFactory.java:129)
+	at org.knime.xml.node.xpath2.XPathNodeModel.createColumnRearranger(XPathNodeModel.java:500)
+	at org.knime.xml.node.xpath2.XPathNodeModel.createKnownOutSpec(XPathNodeModel.java:528)
+	at org.knime.xml.node.xpath2.XPathNodeModel.createFinalOutSpec(XPathNodeModel.java:553)
+	at org.knime.xml.node.xpath2.XPathNodeModel.configure(XPathNodeModel.java:179)
+	at org.knime.core.node.NodeModel.configure(NodeModel.java:1116)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1065)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1909)
+	at org.knime.core.node.Node.configure(Node.java:1845)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:529)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:304)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:189)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6215)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6374)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndSuccessors(WorkflowManager.java:6317)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:1944)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1081)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:263)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:638)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:553)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.access$8(WrappedNodeDialog.java:551)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:489)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:196)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:925)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:129)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4561)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:158)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+2020-08-04 00:48:19,818 : WARN  : main :  : Node : XPath : 0:4 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 00:48:24,290 : WARN  : main :  : Node : XPath : 0:4 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 00:48:29,064 : WARN  : main :  : Node : XPath : 0:4 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 00:48:30,303 : WARN  : main :  : Node : XPath : 0:4 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 00:50:56,524 : WARN  : main :  : Node : HTML Node to Text : 0:6 : Guessing input column: title
+2020-08-04 00:53:06,971 : WARN  : main :  : Node : HTTP Retriever : 3:2 : No suitable column for org.knime.core.data.StringValue found
+2020-08-04 01:02:39,095 : ERROR : Clear OSGi configuration :  : InvokeInstallSiteAction :  :  : Could not clean OSGi configuration area: C:\Program Files\KNIME\configuration\org.eclipse.osgi\291\0\.cp\os\win32\x86_64\localfile_1_0_0.dll
+2020-08-04 01:03:01,244 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMServiceEnabled did not terminate successfully.
+2020-08-04 01:03:01,244 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2020-08-04 01:03:01,245 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : A general error occurred that is not covered by a more specific error code.
+2020-08-04 01:03:01,245 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2020-08-04 01:03:01,245 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMSer ...
+2020-08-04 01:03:01,245 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-08-04 01:03:01,245 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2020-08-04 01:03:01,245 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2020-08-04 01:03:01,245 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2020-08-04 01:03:01,246 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2020-08-04 01:04:45,140 : WARN  : ModalContext :  : Node : HTTP Retriever : 0:2 : No suitable column for org.knime.core.data.StringValue found
+2020-08-04 01:11:55,006 : WARN  : main :  : Node : HTTP Retriever : 0:2 : Guessing input column: url
+2020-08-04 01:11:55,011 : WARN  : main :  : Node : HTML Parser : 0:3 : Guessing input column: Result
+2020-08-04 01:11:55,022 : WARN  : main :  : Node : HTML Node to Text : 0:7 : Guessing input column: Document
+2020-08-04 01:11:55,025 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:11:57,370 : WARN  : KNIME-Worker-12-Table Creator 0:1 :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:12:13,129 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:12:13,508 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:12:18,832 : WARN  : KNIME-Worker-13-HTTP Retriever 0:2 :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:12:43,200 : ERROR : main :  : XPathNodeDialog : XPath : 0:4 : Error loading model settings
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at org.knime.core.data.container.BlobSupportDataRow.getCell(BlobSupportDataRow.java:144)
+	at org.knime.xml.node.xpath2.XPathNodeDialog.updateText(XPathNodeDialog.java:1053)
+	at org.knime.xml.node.xpath2.XPathNodeDialog.loadSettingsFrom(XPathNodeDialog.java:1039)
+	at org.knime.core.node.DataAwareNodeDialogPane.callDerivedLoadSettingsFrom(DataAwareNodeDialogPane.java:79)
+	at org.knime.core.node.NodeDialogPane$3.run(NodeDialogPane.java:466)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2020-08-04 01:12:57,785 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:13:04,754 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:13:05,157 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:15:15,699 : WARN  : main :  : Node : XPath : 0:4 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 01:15:16,707 : WARN  : main :  : Node : XPath : 0:4 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 01:15:45,718 : WARN  : main :  : Node : XPath : 0:4 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 01:15:46,683 : WARN  : main :  : Node : XPath : 0:4 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 01:15:59,881 : WARN  : main :  : Node : XPath : 0:4 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 01:16:00,395 : WARN  : main :  : Node : XPath : 0:4 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 01:16:00,549 : WARN  : main :  : Node : XPath : 0:4 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 01:16:00,707 : WARN  : main :  : Node : XPath : 0:4 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 01:16:01,414 : WARN  : main :  : Node : XPath : 0:4 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 01:16:21,811 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:16:22,264 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:17:32,719 : WARN  : main :  : Node : XPath : 0:9 : XML column "Document" is not present in the input table
+2020-08-04 01:17:33,170 : WARN  : main :  : Node : XPath : 0:9 : XML column "Document" is not present in the input table
+2020-08-04 01:17:35,318 : WARN  : KNIME-Worker-17-Column Filter 0:8 :  : Node : XPath : 0:9 : XML column "Document" is not present in the input table
+2020-08-04 01:17:47,123 : ERROR : main :  : XPathNodeDialog : XPath : 0:9 : Error loading model settings
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at org.knime.core.data.container.BlobSupportDataRow.getCell(BlobSupportDataRow.java:144)
+	at org.knime.xml.node.xpath2.XPathNodeDialog.updateText(XPathNodeDialog.java:1053)
+	at org.knime.xml.node.xpath2.XPathNodeDialog.loadSettingsFrom(XPathNodeDialog.java:1039)
+	at org.knime.core.node.DataAwareNodeDialogPane.callDerivedLoadSettingsFrom(DataAwareNodeDialogPane.java:79)
+	at org.knime.core.node.NodeDialogPane$3.run(NodeDialogPane.java:466)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2020-08-04 01:18:10,991 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:18:11,842 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:21:05,139 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:21:05,770 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:21:40,827 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:22:46,965 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:22:47,538 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:23:28,408 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:23:57,841 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:23:58,355 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:24:19,365 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:25:41,517 : WARN  : main :  : Node : XPath : 0:9 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 01:25:41,994 : WARN  : main :  : Node : XPath : 0:9 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 01:26:27,006 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:26:30,951 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:26:53,882 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:28:28,393 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:28:28,912 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:28:56,495 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:30:14,975 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:30:15,377 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:32:07,115 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:32:09,113 : WARN  : main :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:32:10,490 : WARN  : KNIME-Worker-24-Column Filter 0:10 :  : Node : Row Filter : 0:11 : No row filter specified
+2020-08-04 01:32:38,456 : WARN  : main :  : Node : HTML Node to Text : 0:12 : Guessing input column: categories
+2020-08-04 01:32:38,458 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:32:39,012 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:33:42,239 : ERROR : main :  : XPathNodeDialog : XPath : 0:13 : Error loading model settings
+java.lang.ArrayIndexOutOfBoundsException
+2020-08-04 01:33:59,473 : ERROR : main :  : XPathNodeDialog : XPath : 0:13 : Error loading model settings
+java.lang.ArrayIndexOutOfBoundsException
+2020-08-04 01:34:37,272 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:36:30,548 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:36:32,654 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:36:35,125 : WARN  : KNIME-Worker-37-XPath 0:13 :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:37:03,778 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:37:04,481 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:37:06,850 : WARN  : KNIME-Worker-38-XPath 0:13 :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:37:18,503 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:37:46,744 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:38:11,766 : WARN  : main :  : Node : XPath : 0:13 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 01:38:13,920 : WARN  : main :  : Node : XPath : 0:13 : The namespace table uses the prefix reserved for the roots namespace.
+2020-08-04 01:38:28,575 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:38:29,578 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:38:32,934 : WARN  : KNIME-Worker-39-XPath 0:13 :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:39:29,699 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:40:35,707 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:40:38,308 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:40:41,223 : WARN  : KNIME-Worker-40-XPath 0:13 :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:41:55,810 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:42:54,010 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:42:54,482 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:43:50,917 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:43:51,351 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:43:53,434 : WARN  : KNIME-Worker-41-XPath 0:13 :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:44:41,943 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:44:42,331 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:44:44,407 : WARN  : KNIME-Worker-42-Column Filter 0:14 :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:45:52,009 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:45:53,052 : WARN  : main :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:45:55,649 : WARN  : KNIME-Worker-43-XPath 0:13 :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:46:06,071 : WARN  : KNIME-Worker-44-Column Filter 0:14 :  : Node : CSV Writer : 0:17 : No destination location provided! Please enter a valid location.
+2020-08-04 01:48:23,779 : WARN  : main :  : Node : CSV Writer : 0:17 : Output file 'C:\Users\USUARIO\Downloads\IGTI\Bootcamp Online - Cientista de Dados\3_Modulo2_Coleta_e_Obtencao_de_Dados\Parte2\AulasPraticas\dados\IGTI_Scraped_categories.csv' exists and will be overwritten
+2020-08-04 01:48:24,489 : WARN  : main :  : Node : CSV Writer : 0:17 : Output file 'C:\Users\USUARIO\Downloads\IGTI\Bootcamp Online - Cientista de Dados\3_Modulo2_Coleta_e_Obtencao_de_Dados\Parte2\AulasPraticas\dados\IGTI_Scraped_categories.csv' exists and will be overwritten
+2020-08-04 15:07:47,403 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMServiceEnabled did not terminate successfully.
+2020-08-04 15:07:47,404 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2020-08-04 15:07:47,404 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : A general error occurred that is not covered by a more specific error code.
+2020-08-04 15:07:47,404 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2020-08-04 15:07:47,405 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMSer ...
+2020-08-04 15:07:47,405 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-08-04 15:07:47,405 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2020-08-04 15:07:47,405 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2020-08-04 15:07:47,405 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2020-08-04 15:07:47,405 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  

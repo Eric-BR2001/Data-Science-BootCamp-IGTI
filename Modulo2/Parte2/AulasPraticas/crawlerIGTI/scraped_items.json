@@ -1,0 +1,168 @@
+[{
+    "categoria_URL":"https://www.igti.com.br/blog/category/data-science/",
+    "categoria_artigo":"DATA SCIENCE",
+    "comentarios_artigo":"7 comentários",
+    "dtPostagem_artigo":"12 de abril de 2017",
+    "titulo_artigo":"Cientista de Dados: o novo profissional que o mercado procura",
+    "titulo_pagina":" IGTI Blog",
+    "url_artigo":"https://www.igti.com.br/blog/carreira-ti-big-data/",
+    "url_pagina":"https://www.igti.com.br/blog/",
+    "visualizacoes_artigo":"34.556 visualizações"
+},
+{
+    "categoria_URL":"https://www.igti.com.br/blog/category/development/",
+    "categoria_artigo":"DEVELOPMENT",
+    "comentarios_artigo":"0 comentários",
+    "dtPostagem_artigo":"13 de junho de 2018",
+    "titulo_artigo":"O que faz um Desenvolvedor Full Stack?",
+    "titulo_pagina":" IGTI Blog",
+    "url_artigo":"https://www.igti.com.br/blog/o-que-faz-um-desenvolvedor-full-stack/",
+    "url_pagina":"https://www.igti.com.br/blog/",
+    "visualizacoes_artigo":"34.455 visualizações"
+},
+{
+    "categoria_URL":"https://www.igti.com.br/blog/category/development/",
+    "categoria_artigo":"DEVELOPMENT",
+    "comentarios_artigo":"2 comentários",
+    "dtPostagem_artigo":"22 de novembro de 2017",
+    "titulo_artigo":"5 motivos para você aprender SQL",
+    "titulo_pagina":" IGTI Blog",
+    "url_artigo":"https://www.igti.com.br/blog/5-motivos-para-voce-aprender-sql/",
+    "url_pagina":"https://www.igti.com.br/blog/",
+    "visualizacoes_artigo":"29.189 visualizações"
+},
+{
+    "categoria_URL":"https://www.igti.com.br/blog/category/inteligencia-artificial/",
+    "categoria_artigo":"INTELIGÊNCIA ARTIFICIAL",
+    "comentarios_artigo":"0 comentários",
+    "dtPostagem_artigo":"10 de julho de 2017",
+    "titulo_artigo":"A carreira dos profissionais de Ciência de Dados, Engenharia de Dados e Machine Learning",
+    "titulo_pagina":" IGTI Blog",
+    "url_artigo":"https://www.igti.com.br/blog/carreira-big-data-engenharia-dados-machine-learning/",
+    "url_pagina":"https://www.igti.com.br/blog/",
+    "visualizacoes_artigo":"27.454 visualizações"
+},
+{
+    "categoria_URL":"https://www.igti.com.br/blog/category/data-analytics/",
+    "categoria_artigo":"DATA ANALYTICS",
+    "comentarios_artigo":"8 comentários",
+    "dtPostagem_artigo":"4 de maio de 2017",
+    "titulo_artigo":"A carreira de um Analista de Business Intelligence",
+    "titulo_pagina":" IGTI Blog",
+    "url_artigo":"https://www.igti.com.br/blog/carreira-inteligencia-negocios/",
+    "url_pagina":"https://www.igti.com.br/blog/",
+    "visualizacoes_artigo":"26.680 visualizações"
+},
+{
+    "categoria_URL":"https://www.igti.com.br/blog/category/igti-na-midia/",
+    "categoria_artigo":"IGTI NA MÍDIA",
+    "comentarios_artigo":"0 comentários",
+    "dtPostagem_artigo":"2 horas atrás",
+    "titulo_artigo":"Instituto abre 16.000 vagas para cursos online e gratuitos de tecnologia",
+    "titulo_pagina":" IGTI Blog",
+    "url_artigo":"https://www.igti.com.br/blog/instituto-abre-16-000-vagas-para-cursos-online-e-gratuitos-de-tecnologia/",
+    "url_pagina":"https://www.igti.com.br/blog/",
+    "visualizacoes_artigo":"4 visualizações"
+},
+{
+    "categoria_URL":"https://www.igti.com.br/blog/category/webinar/",
+    "categoria_artigo":"Webinar",
+    "comentarios_artigo":"0 comentários",
+    "dtPostagem_artigo":"6 dias atrás",
+    "titulo_artigo":"Seja um parceiro do IGTI",
+    "titulo_pagina":" IGTI Blog",
+    "url_artigo":"https://www.igti.com.br/blog/seja-um-parceiro-do-igti/",
+    "url_pagina":"https://www.igti.com.br/blog/",
+    "visualizacoes_artigo":"108 visualizações"
+},
+{
+    "categoria_URL":"https://www.igti.com.br/blog/category/igti-na-midia/",
+    "categoria_artigo":"IGTI NA MÍDIA",
+    "comentarios_artigo":"0 comentários",
+    "dtPostagem_artigo":"1 semana atrás",
+    "titulo_artigo":"No foco do Zoom",
+    "titulo_pagina":" IGTI Blog",
+    "url_artigo":"https://www.igti.com.br/blog/no-foco-do-zoom/",
+    "url_pagina":"https://www.igti.com.br/blog/",
+    "visualizacoes_artigo":"63 visualizações"
+},
+{
+    "categoria_URL":[
+        "https://www.igti.com.br/blog/category/dev-summit/",
+        "https://www.igti.com.br/blog/category/development/"
+    ],
+    "categoria_artigo":[
+        "Dev Summit",
+        "DEVELOPMENT"
+    ],
+    "comentarios_artigo":"0 comentários",
+    "dtPostagem_artigo":"2 semanas atrás",
+    "titulo_artigo":"Automatismos para elevar a produtividade no desenvolvimento mobile",
+    "titulo_pagina":" IGTI Blog",
+    "url_artigo":"https://www.igti.com.br/blog/automatismos-para-elevar-a-produtividade-no-desenvolvimento-mobile/",
+    "url_pagina":"https://www.igti.com.br/blog/",
+    "visualizacoes_artigo":"41 visualizações"
+},
+{
+    "categoria_URL":[
+        "https://www.igti.com.br/blog/category/dev-summit/",
+        "https://www.igti.com.br/blog/category/development/"
+    ],
+    "categoria_artigo":[
+        "Dev Summit",
+        "DEVELOPMENT"
+    ],
+    "comentarios_artigo":"0 comentários",
+    "dtPostagem_artigo":"2 semanas atrás",
+    "titulo_artigo":"Comunicação de Alto Impacto no Trabalho Remoto",
+    "titulo_pagina":" IGTI Blog",
+    "url_artigo":"https://www.igti.com.br/blog/comunicacao-de-alto-impacto-no-trabalho-remoto/",
+    "url_pagina":"https://www.igti.com.br/blog/",
+    "visualizacoes_artigo":"201 visualizações"
+},
+{
+    "categoria_URL":"https://www.igti.com.br/blog/category/igti-na-midia/",
+    "categoria_artigo":"IGTI NA MÍDIA",
+    "comentarios_artigo":"0 comentários",
+    "dtPostagem_artigo":"2 semanas atrás",
+    "titulo_artigo":"5G DSS | O que é e como funciona a “nova geração” da rede disponível no Brasil",
+    "titulo_pagina":" IGTI Blog",
+    "url_artigo":"https://www.igti.com.br/blog/5g-dss-o-que-e-e-como-funciona-a-nova-geracao-da-rede-disponivel-no-brasil/",
+    "url_pagina":"https://www.igti.com.br/blog/",
+    "visualizacoes_artigo":"106 visualizações"
+},
+{
+    "categoria_URL":[
+        "https://www.igti.com.br/blog/category/dev-summit/",
+        "https://www.igti.com.br/blog/category/development/"
+    ],
+    "categoria_artigo":[
+        "Dev Summit",
+        "DEVELOPMENT"
+    ],
+    "comentarios_artigo":"0 comentários",
+    "dtPostagem_artigo":"3 semanas atrás",
+    "titulo_artigo":"Arquitetura de Software: Resolução de problemas industriais",
+    "titulo_pagina":" IGTI Blog",
+    "url_artigo":"https://www.igti.com.br/blog/arquitetura-de-software-resolucao-de-problemas-industriais/",
+    "url_pagina":"https://www.igti.com.br/blog/",
+    "visualizacoes_artigo":"78 visualizações"
+},
+{
+    "categoria_URL":[
+        "https://www.igti.com.br/blog/category/ciberseguranca/",
+        "https://www.igti.com.br/blog/category/igti-na-midia/"
+    ],
+    "categoria_artigo":[
+        "CIBERSEGURANÇA",
+        "IGTI NA MÍDIA"
+    ],
+    "comentarios_artigo":"0 comentários",
+    "dtPostagem_artigo":"3 semanas atrás",
+    "titulo_artigo":"Os riscos e oportunidades do Open Banking: quem ganha com a regulamentação",
+    "titulo_pagina":" IGTI Blog",
+    "url_artigo":"https://www.igti.com.br/blog/os-riscos-e-oportunidades-do-open-banking-quem-ganha-com-a-regulamentacao/",
+    "url_pagina":"https://www.igti.com.br/blog/",
+    "visualizacoes_artigo":"71 visualizações"
+},
+]

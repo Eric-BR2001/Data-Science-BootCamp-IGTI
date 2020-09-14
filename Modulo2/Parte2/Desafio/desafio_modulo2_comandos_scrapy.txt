@@ -1,0 +1,37 @@
+# Projeto para as Atividades 3 e 4:
+scrapy startproject desafioModulo2GovBR
+
+# Acessando a pasta do projeto criado
+cd desafio_modulo2_govBR
+
+'''
+Atividade 3:
+Utilizando a linguagem Python e o pacote Scrapy, crie um projeto para realizar a raspagem de dados da página de notícias do governo federal e salvar em um arquivo csv. O endereço da página é: https://www.gov.br/pt-br/noticias. A Figura 1 apresenta um exemplo de como a página é organizada. As informações que devem ser raspadas da página inicial são:
+- Título(s) e url da página inicial;
+- Assunto de cada notícia (em destaque com o retângulo azul na Figura 1);
+- Título de cada notícia (em destaque circulado em vermelho na Figura 1);
+- URL de cada notícia.
+'''
+# Criando o scrapy
+scrapy genspider ScrapyGovBR www.gov.br/pt-br/noticias
+# Executando o spider
+scrapy runspider desafioModulo2GovBR\spiders\scrapyGovBR.py
+
+'''
+Atividade 4:
+Utilizando Python e Scrapy, altere o projeto da atividade 3 para realizar o rastreamento para as notícias selecionadas na página inicial. A Figura 2 abaixo apresenta um exemplo de como uma página de notícia é organizada. As informações, em destaque na Figura 2, que devem ser raspadas das páginas de cada notícia são:
+- Título(s) da página;
+- Url da página;
+- Assunto de cada notícia;
+- Título de cada notícia;
+- Subtítulo de cada notícia;
+- Data/hora da publicação;
+- Texto de cada notícia;
+- Autor da notícia;
+- Categoria da notícia;
+- Tags da notícia.
+'''
+# Criando o crawler
+scrapy genspider CrawlerGovBR www.gov.br/pt-br/noticias
+# Executando o spider
+scrapy runspider desafioModulo2GovBR\spiders\crawlerGovBR.py

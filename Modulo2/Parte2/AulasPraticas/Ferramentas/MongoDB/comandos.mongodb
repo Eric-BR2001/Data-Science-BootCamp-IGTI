@@ -1,0 +1,159 @@
+// Apresentar os bancos de dados existentes
+show databases
+/* Resultado: 
+admin   0.000GB 
+config  0.000GB 
+local   0.000GB 
+*/
+
+// Usar o banco igti (caso não exista, o banco será criado)
+use igti
+// Resultado: vazio
+
+// Apresentar as coleções (tabelas) em igti
+show collections
+// Resultado: vazio
+
+// Apresentar os documentos (registros) da coleção (tabela) clientes
+db.clientes.find()
+// Resultado: vazio
+
+// Inserir um novo documento (registro) cliente na coleção (tabela) clientes
+db.clientes.insert({ nome: "Luiza", idade: 24 })
+// Resultado: WriteResult({ "nInserted" : 1 })
+
+// Apresentar os documentos (registros) da coleção (tabela) clientes
+db.clientes.find()
+// Resultado: { "_id" : ObjectId("5f2381dc7aa19dcb639f9c9c"), "nome" : "Luiza", "idade" : 24 }
+
+// Inserir um único documento (registro) na coleção (tabela) clientes
+db.clientes.insertOne({ nome: "Paulo", idade: 31, uf: "SP" })
+/* Resultado:
+{
+       "acknowledged" : true,
+       "insertedId" : ObjectId("5f23836f7aa19dcb639f9c9d")
+}
+*/
+
+// Apresentar os documentos (registros) da coleção (tabela) clientes
+db.clientes.find()
+/* Resultado:
+{ "_id" : ObjectId("5f2381dc7aa19dcb639f9c9c"), "nome" : "Luiza", "idade" : 24 }
+{ "_id" : ObjectId("5f23836f7aa19dcb639f9c9d"), "nome" : "Paulo", "idade" : 31, "uf" : "SP" }
+*/
+
+// Inserir múltiplos documentos (registros) na coleção (tabela) clientes
+db.clientes.insertMany ([
+  { nome: "Maria", idade: 32 },
+  { nome: "Jorge", idade: 41, uf: "RJ" },
+  { nome: "Beatriz", idade: 31, uf: "SP" },
+  { nome: "João", idade: 41 },
+  { nome: "Marta", uf: "MG" },
+  { nome: "Ana", idade: 44, uf: "MG" }
+])
+/* Resultado:
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("5f2384917aa19dcb639f9c9e"),
+                ObjectId("5f2384917aa19dcb639f9c9f"),
+                ObjectId("5f2384917aa19dcb639f9ca0"),
+                ObjectId("5f2384917aa19dcb639f9ca1"),
+                ObjectId("5f2384917aa19dcb639f9ca2"),
+                ObjectId("5f2384917aa19dcb639f9ca3") 
+        ]
+}
+*/
+
+// Apresentar os documentos (registros) da coleção (tabela) clientes
+db.clientes.find()
+/* Resultado:
+{ "_id" : ObjectId("5f2381dc7aa19dcb639f9c9c"), "nome" : "Luiza", "idade" : 24 }
+{ "_id" : ObjectId("5f23836f7aa19dcb639f9c9d"), "nome" : "Paulo", "idade" : 31, "uf" : "SP" }  
+{ "_id" : ObjectId("5f2384917aa19dcb639f9c9e"), "nome" : "Maria", "idade" : 32 }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9c9f"), "nome" : "Jorge", "idade" : 41, "uf" : "RJ" }  
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca0"), "nome" : "Beatriz", "idade" : 31, "uf" : "SP" }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca1"), "nome" : "João", "idade" : 41 }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca2"), "nome" : "Marta", "uf" : "MG" }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca3"), "nome" : "Ana", "idade" : 44, "uf" : "MG" }
+*/
+
+// Apresentar os documentos (registros) da coleção (tabela) clientes com uf = "SP"
+db.clientes.find({ uf: "SP" })
+/* Resultado:
+{ "_id" : ObjectId("5f23836f7aa19dcb639f9c9d"), "nome" : "Paulo", "idade" : 31, "uf" : "SP" }  
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca0"), "nome" : "Beatriz", "idade" : 31, "uf" : "SP" }
+*/
+
+// Apresentar a quantidade de documentos (registros) da coleção (tabela) clientes
+db.clientes.find().count()
+// Resultado: 8
+
+// Apresentar a quantidade de documentos (registros) da coleção (tabela) clientes com uf = "SP"
+db.clientes.find({ uf: "SP" }).count()
+// Resultado: 2
+
+// Alterar um documento (registro) na coleção (tabela) clientes (id da Luiza para uf = "RJ")
+db.clientes.updateOne (
+    { _id: ObjectId("5f2381dc7aa19dcb639f9c9c") },
+    { $set: { uf: "RJ" }}
+)
+// Resultado:
+// { "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+
+// Apresentar os documentos (registros) da coleção (tabela) clientes
+db.clientes.find()
+/* Resultado:
+{ "_id" : ObjectId("5f2381dc7aa19dcb639f9c9c"), "nome" : "Luiza", "idade" : 24, "uf" : "RJ" }  
+{ "_id" : ObjectId("5f23836f7aa19dcb639f9c9d"), "nome" : "Paulo", "idade" : 31, "uf" : "SP" }  
+{ "_id" : ObjectId("5f2384917aa19dcb639f9c9e"), "nome" : "Maria", "idade" : 32 }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9c9f"), "nome" : "Jorge", "idade" : 41, "uf" : "RJ" }  
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca0"), "nome" : "Beatriz", "idade" : 31, "uf" : "SP" }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca1"), "nome" : "João", "idade" : 41 }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca2"), "nome" : "Marta", "uf" : "MG" }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca3"), "nome" : "Ana", "idade" : 44, "uf" : "MG" }
+*/
+
+// Alterar múltiplos documentos (registros) na coleção (tabela) clientes (incluir campo ativo = "Sim" para TODOS os documentos)
+db.clientes.update (
+    {},
+    { $set: { ativo: "Sim" }},
+    { upsert: true, multi: true }
+)
+// Resultado: WriteResult({ "nMatched" : 8, "nUpserted" : 0, "nModified" : 8 })
+
+// Apresentar os documentos (registros) da coleção (tabela) clientes
+db.clientes.find()
+/* Resultado:
+{ "_id" : ObjectId("5f2381dc7aa19dcb639f9c9c"), "nome" : "Luiza", "idade" : 24, "uf" : "RJ", "ativo" : "Sim" }  
+{ "_id" : ObjectId("5f23836f7aa19dcb639f9c9d"), "nome" : "Paulo", "idade" : 31, "uf" : "SP", "ativo" : "Sim" }  
+{ "_id" : ObjectId("5f2384917aa19dcb639f9c9e"), "nome" : "Maria", "idade" : 32, "ativo" : "Sim" }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9c9f"), "nome" : "Jorge", "idade" : 41, "uf" : "RJ", "ativo" : "Sim" }  
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca0"), "nome" : "Beatriz", "idade" : 31, "uf" : "SP", "ativo" : "Sim" }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca1"), "nome" : "João", "idade" : 41, "ativo" : "Sim" }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca2"), "nome" : "Marta", "uf" : "MG", "ativo" : "Sim" }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca3"), "nome" : "Ana", "idade" : 44, "uf" : "MG", "ativo" : "Sim" }
+*/
+
+// Excluir os documentos (registros) na coleção (tabela) clientes com uf = "RJ"
+db.clientes.deleteMany ({ uf: "RJ" })
+// Resultado: { "acknowledged" : true, "deletedCount" : 2 }
+
+// Apresentar os documentos (registros) da coleção (tabela) clientes
+db.clientes.find()
+/* Resultado:
+{ "_id" : ObjectId("5f23836f7aa19dcb639f9c9d"), "nome" : "Paulo", "idade" : 31, "uf" : "SP", "ativo" : "Sim" }  
+{ "_id" : ObjectId("5f2384917aa19dcb639f9c9e"), "nome" : "Maria", "idade" : 32, "ativo" : "Sim" }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca0"), "nome" : "Beatriz", "idade" : 31, "uf" : "SP", "ativo" : "Sim" }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca1"), "nome" : "João", "idade" : 41, "ativo" : "Sim" }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca2"), "nome" : "Marta", "uf" : "MG", "ativo" : "Sim" }
+{ "_id" : ObjectId("5f2384917aa19dcb639f9ca3"), "nome" : "Ana", "idade" : 44, "uf" : "MG", "ativo" : "Sim" }
+*/
+
+// Excluir a coleção (tabela) clientes
+db.clientes.drop()
+// Resultado: true
+
+// Apresentar as coleções (tabelas) em igti
+show collections
+// Resultado: vazio
