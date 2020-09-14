@@ -1,0 +1,83 @@
+Trabalho Prático do Módulo 1
+Iniciado: 11 jul em 20:29
+Instruções do teste
+O Trabalho Prático do Módulo 1 está disponível!
+
+1. Instruções para realizar o trabalho prático
+
+
+Consulte a data de entrega no teste e em seu calendário.
+
+
+Reserve um tempo para realizar a atividade, leia as orientações e enunciados com atenção. Em caso de dúvidas utilize o "Fórum de dúvidas do Trabalho Prático".
+
+
+Para iniciá-lo clique em "Fazer teste". Você tem somente uma tentativa e não há limite de tempo definido para realizá-lo. Caso precise interromper a atividade, apenas deixe a página e, ao retornar, clique em "Retomar teste".
+
+
+Clique em "Enviar teste" somente quando você concluí-lo. Antes de enviar confira todas as questões.
+
+
+O gabarito será disponibilizado partir de sexta-feira, 17/07/2020, às 21h.
+
+
+Bons estudos!
+
+2. O arquivo abaixo contém o enunciado do trabalho prático
+
+Enunciado do Trabalho Prático - Módulo 1 - Cientista de Dados.pdfPré-visualizar o documento
+
+TP.pyPré-visualizar o documento
+
+Exercício de K-Means
+
+Pergunta 1
+Qual o objetivo do algoritmo K-Means?
+Clusterização (4ª alternativa)
+
+Pergunta 2
+O algoritmo K-Means é baseado em qual tipo de aprendizagem?
+Não supervisionada
+
+Pergunta 3
+Considerando o dataset gerado a partir das instruções do enunciado, qual das imagens representa o gráfico correto?
+(1ª alternativa)
+
+Pergunta 4
+Considere o dataset gerado a partir das instruções do enunciado. Caso o algoritmo K-Means seja executado buscando apenas 1 cluster, qual será a coordenada do centroide ao final da execução?
+[ 0.02618523 -1.30384304] (4ª alternativa)
+
+Pergunta 5
+Considere o dataset gerado a partir das instruções do enunciado. Caso o algoritmo seja executado buscando apenas 1 cluster, qual será a soma dos quadrados intra-clusters (wcss) ao final da execução?
+31547.372471390485 (4ª alternativa)
+
+Pergunta 6
+Considere o dataset gerado a partir das instruções do enunciado. Caso o algoritmo seja executado buscando 5 clusters, qual será a soma dos quadrados intra-clusters (wcss) ao final da execução?
+4717.404091931214
+
+Pergunta 7
+Considerando o dataset gerado a partir das instruções do enunciado. Qual o número ideal de clusters?
+4 (4ª alternativa)
+
+Exercício de Power BI
+Link: https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?select=covid_19_data.csv
+
+Pergunta 8
+Utilizando o Power BI e o dataset das instruções do enunciado. Ao criar um gráfico com as medidas “Confirmed”, “Deaths”, “Recovered” e “Active” apenas para a China (Mainland China), como fica o gráfico?
+(3ª alternativa)
+
+Pergunta 9
+Utilizando o Power BI e o dataset das instruções do enunciado. Filtre por país, selecionando a Itália (Italy), analise as informações do dataset e responda: Em que mês o país passou a ter mais casos recuperados do que casos ativos?
+Maio (4ª alternativa)
+
+Pergunta 10
+Utilizando o Power BI e o dataset das instruções do enunciado. Filtre por país, selecionando a Coreia do Sul (South Korea). Em que mês esse país atingiu o pico de casos ativos?
+Março (2ª alternativa)
+
+Pergunta 11
+Utilizando o Power BI e o dataset das instruções do enunciado. Ao criar um gráfico com a medida “Active” apenas para a Itália (Italy), como fica o gráfico?
+(4ª alternativa)
+
+Pergunta 12
+Utilizando o Power BI e o dataset das instruções do enunciado. Filtre por país, selecionando a Venezuela, analise as informações, perceba que algumas vezes o número de casos recuperados foi maior que o de casos ativos. Em que mês isso ocorreu pela primeira vez?
+Abril (2ª alternativa)
