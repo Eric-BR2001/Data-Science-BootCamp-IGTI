@@ -1,0 +1,4 @@
+Links importantes:
+https://www.linkedin.com/in/gleber-teixeira-phd-58b52838/detail/recent-activity/posts/
+https://medium.com/@joaolggross/how-to-install-and-execute-jupyter-notebook-on-ubuntu-18-04-d5b37159bd8e
+https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04

@@ -1,0 +1,21 @@
+1. Download e Instalação do Neo4j Desktop
+Acessar o seguinte link: https://neo4j.com/download/
+Clicar em download
+Após baixado, iniciar o assistente de instalação (next, next, finish)
+Aceitar os termos
+Copiar e colar a chave de acesso, dispnibilizada na página de download, para ativação do programa.
+
+2. Neo4j Desktop Activation Key:
+(página de download do Neo4j)
+
+3. Criar um novo grafo / banco de dados
+Entrar no Neo4j
+Em projects, clicar em "New"
+Em Databases, clicar em "Add Database"
+Clicar em "Create a Local Database"
+Preencher os campos:
+- DBMS Name: <nome do banco>
+- Set Password: <senha>
+Clicar em "Create"
+Após a criação do banco, clicar em "Start"
+Após iniciar o banco, clicar em "Open"

@@ -1,0 +1,34 @@
+1. Como habilitar e acessar o terminal no databricks:
+Requisitos
+Runtime do Cluster: 7.2 ML (includes Apache Spark 3.0.0, Scala 2.12)
+
+Clique no seu usuário (canto superior direito) e escolha a opção "Admin Console"
+Clique na aba "Advanced"
+Na aba "Web Terminal: Enabled/Disable", clique em "Enable" (caso não esteja habilitado ainda)
+Clique em "Clusters" e, então, clique no cluster ativo no databricks
+Clique na aba "Apps"
+Em "Web Terminal", clique em "Launch Web Terminal"
+
+2. Como acessar o DBFS Cli, client do sistema de arquivos do databricks:
+Requisitos
+Runtime do Cluster: 7.2 ML (includes Apache Spark 3.0.0, Scala 2.12)
+
+Acesse o terminal e digite:
+/databricks/conda/envs/databricks-ml/bin/dbfs configure
+
+Preencha
+Host: https://community.cloud.databricks.com
+Username: seu usuario do databricks
+Passward: sua senha do databricks
+Repeat: sua senha do databricks
+
+Acessando o sistema de arquivo
+dbfs ls dbfs:/FileStore/tables
+
+Acessando do terminal Local
+1. instale o databricks-cli
+python -m pip install databricks-cli
+2. Execute a configuração
+databricks configure
+3. Acesse o DBFS
+dbfs ls dbfs:/FileStore/tables
